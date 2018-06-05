@@ -47,3 +47,35 @@
 // }
 
 // ---------------------------------------------------------------------//
+
+// Boolean Logic
+
+// var age = 19; //Try different ages
+
+// if (age <= 12) {
+//     console.log('John is a kid.');
+// } else if (age >= 13 && age <= 19) {
+//     console.log('John is a teenager.');
+// } else {
+//     console.log('John is a man!');
+// }
+
+// ---------------------------------------------------------------------//
+
+// Switch Statement
+
+// var job = prompt("What does John do?");
+
+// switch (job) {
+//     case 'teacher':
+//         console.log('John teaches kids.');
+//         break;
+//     case 'web designer':
+//         console.log('John designs websites');
+//         break;
+//     default:
+//         console.log('John does something else');
+// }
+
+// ---------------------------------------------------------------------//
+
