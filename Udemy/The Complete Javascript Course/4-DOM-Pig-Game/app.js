@@ -8,61 +8,81 @@ GAME RULES:
 - The first player to reach 100 points on GLOBAL score wins the game
 
 */
-var scores, roundScore, activePlayer, dice;
 
-scores = [0,0];
-roundScore = 0;
-activePlayer = 0;
+var scores, roundScore, activePlayer, dice, gameActive;
 
-dice = Math.floor(Math.random() * 6) + 1;
-
-document.querySelector(".dice").style.display = "none";
-
-document.getElementById("score-0").innerHTML = 0;
-document.getElementById("score-1").innerHTML = 0;
-document.getElementById("current-0").innerHTML = 0;
-document.getElementById("current-1").innerHTML = 0;
+init();
 
 document.querySelector(".btn-roll").addEventListener("click", function() {
     
-    // Get Random Number
-    var dice = Math.floor(Math.random() * 6) + 1;
+    if (gameActive) {
 
-    // Display Result
-    var diceDOM = document.querySelector(".dice"); 
-    diceDOM.style.display = "block";
-    diceDOM.src = 'dice-' + dice + ".png";
+        // Get Random Number between '1' & '6'
+        var dice = Math.floor(Math.random() * 6) + 1;
 
-    // Update score IF rolled number is NOT '1'
-    if (dice !== 1) {
+        // Display Result
+        var diceDOM = document.querySelector(".dice"); 
+        diceDOM.style.display = "block";
+        diceDOM.src = 'dice-' + dice + ".png";
 
-        // Add score
-        roundScore += dice;
-        document.querySelector("#current-" + activePlayer).innerHTML = roundScore;
-    } else {
+        // Update score IF rolled number is NOT '1'
+        if (dice !== 1) {
 
-        // Next Player
-        nextPlayer();
+            // Add score
+            roundScore += dice;
+            document.querySelector("#current-" + activePlayer).innerHTML = roundScore;
+        } else {
+
+            // Next Player
+            nextPlayer();
+        }
     }
 });
 
 document.querySelector(".btn-hold").addEventListener("click", function() {
-    // Add CURRENT score to GLOBAL score
-    scores[activePlayer] += roundScore;
+    if (gameActive){
 
-    // Update UI
-    document.querySelector("#score-" + activePlayer).innerHTML = scores[activePlayer];
+        // Add CURRENT score to GLOBAL score
+        scores[activePlayer] += roundScore;
 
-    // Check if player won the game
-    if (scores[activePlayer] >= 10) {
-        document.querySelector("#name-" + activePlayer).innerHTML = "Winner!";
-        document.querySelector(".dice").style.display = "none";
-        document.querySelector(".player-" + activePlayer + "-panel").classList.add("winner");
-        document.querySelector(".player-" + activePlayer + "-panel").classList.remove("active");
-    } else {
-        nextPlayer();  
+        // Update UI
+        document.querySelector("#score-" + activePlayer).innerHTML = scores[activePlayer];
+
+        // Check if player won the game
+        if (scores[activePlayer] >= 10) {
+            document.querySelector("#name-" + activePlayer).innerHTML = "Winner!";
+            document.querySelector(".dice").style.display = "none";
+            document.querySelector(".player-" + activePlayer + "-panel").classList.add("winner");
+            document.querySelector(".player-" + activePlayer + "-panel").classList.remove("active");
+            gameActive = false;
+        } else {
+            nextPlayer();  
+        }
     }
 });
+
+
+
+document.querySelector(".btn-new").addEventListener("click", init);
+
+function init() {
+    scores = [0,0];
+    activePlayer = 0;
+    roundScore = 0;
+    gameActive = true;
+    document.querySelector(".dice").style.display = "none";
+    document.getElementById("score-0").innerHTML = 0;
+    document.getElementById("score-1").innerHTML = 0;
+    document.getElementById("current-0").innerHTML = 0;
+    document.getElementById("current-1").innerHTML = 0;
+    document.getElementById("name-0").innerHTML = "Player 1";
+    document.getElementById("name-1").innerHTML = "Player 2";
+    document.querySelector(".player-0-panel").classList.remove("winner");
+    document.querySelector(".player-1-panel").classList.remove("winner");
+    document.querySelector(".player-0-panel").classList.remove("active");
+    document.querySelector(".player-1-panel").classList.remove("active");
+    document.querySelector(".player-0-panel").classList.add("active");
+}
 
 function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
