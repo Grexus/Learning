@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, dice, gameActive;
+var scores, roundScore, activePlayer, dice, gameActive, rolls, winningScore;
 
 init();
 
@@ -25,12 +25,27 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
         diceDOM.style.display = "block";
         diceDOM.src = 'dice-' + dice + ".png";
 
-        // Update score IF rolled number is NOT '1'
-        if (dice !== 1) {
+        // Add result to rolls array (max length 2: elements)
+        if (rolls.length < 2) {
+            rolls.push(dice);
+        } else if (rolls.length = 2) {
+            rolls.shift();
+            rolls.push(dice);
+        }
+
+        // If player rolls two 6's in a row
+        if (rolls[0] == 6 && rolls[1] == 6) {
+
+            // Next Player
+            nextPlayer();
+        
+        // If player does not roll a 1
+        } else if (dice !== 1) {
 
             // Add score
             roundScore += dice;
             document.querySelector("#current-" + activePlayer).innerHTML = roundScore;
+
         } else {
 
             // Next Player
@@ -49,7 +64,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
         document.querySelector("#score-" + activePlayer).innerHTML = scores[activePlayer];
 
         // Check if player won the game
-        if (scores[activePlayer] >= 10) {
+        if (scores[activePlayer] >= winningScore) {
             document.querySelector("#name-" + activePlayer).innerHTML = "Winner!";
             document.querySelector(".dice").style.display = "none";
             document.querySelector(".player-" + activePlayer + "-panel").classList.add("winner");
@@ -70,6 +85,7 @@ function init() {
     activePlayer = 0;
     roundScore = 0;
     gameActive = true;
+    rolls = [];
     document.querySelector(".dice").style.display = "none";
     document.getElementById("score-0").innerHTML = 0;
     document.getElementById("score-1").innerHTML = 0;
@@ -87,6 +103,7 @@ function init() {
 function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
+    rolls = [];
     document.getElementById("current-0").innerHTML = 0;
     document.getElementById("current-1").innerHTML = 0;
     document.querySelector(".player-0-panel").classList.toggle('active');
