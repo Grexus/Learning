@@ -79,6 +79,10 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
 
 
 document.querySelector(".btn-new").addEventListener("click", init);
+document.querySelector(".update-winning-score").addEventListener("click", function(){
+    winningScoreString = document.querySelector(".new-winning-score").value;
+    winningScore = Number(winningScoreString);
+})
 
 function init() {
     scores = [0,0];
