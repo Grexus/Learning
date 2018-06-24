@@ -6,7 +6,14 @@
         position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 
         // Scores Container
-        .scores-container {}
+        .scores-container {
+
+            // Score Card
+            .score-card {
+
+                &.player-2 { text-align: right; }
+            }
+        }
 
         // Dice Container
         .dice-container {
