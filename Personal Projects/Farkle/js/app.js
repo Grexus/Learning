@@ -1,4 +1,6 @@
 var dice = document.getElementsByClassName("dice");
+var selectedDice = document.getElementsByClassName("selected");
+var activePlayer;
 
 // Starting Settings
 init();
@@ -18,6 +20,9 @@ document.getElementById("roll").addEventListener("click", function(){
 // Clicking "score & roll again" button
 document.getElementById("score-roll").addEventListener("click", function(){
 
+    // Remove Selection
+    removeSelection();
+
     // Roll & update dice
     rollDice();
     updateDice();
@@ -26,9 +31,15 @@ document.getElementById("score-roll").addEventListener("click", function(){
 // Clicking "score & pass" button
 document.getElementById("score-pass").addEventListener("click", function(){
     
+    // Remove Selection
+    removeSelection();
+
     // Hide & reset dice
     hideDice();
     resetDice();
+
+    // Switch active player
+    switchActivePlayer();
 
     // Show "roll" button
     showRollButton();
@@ -42,6 +53,13 @@ for (i = 0; i < dice.length; i++) {
         }
     })
 }
+
+// Game Logic
+// for (i = 0; i < selectedDice.length; i++) {
+//     if (selectedDice[0].value === 1) {
+//         score = 100;
+//     }
+// }
 
 // Hide Score Buttons
 function showRollButton() {
@@ -91,8 +109,31 @@ function resetDice() {
     }
 }
 
+// Remove Selection
+function removeSelection() {
+    for (i = 0; i < dice.length; i++) {
+        dice[i].classList.remove("selected");
+    }
+}
+
+// Switch Active Player
+function switchActivePlayer() {
+    if (activePlayer === 1) {
+        activePlayer = 2;
+        document.getElementById("player-2").classList.add("active");
+        document.getElementById("player-1").classList.remove("active");
+    } else {
+        activePlayer = 1;
+        document.getElementById("player-1").classList.add("active");
+        document.getElementById("player-2").classList.remove("active");
+    }
+}
+
 // Starting Settings
 function init() {
+    activePlayer = 1;
+    document.getElementById("player-1").classList.add("active");
+    document.getElementById("player-2").classList.remove("active");
     hideDice();
     showRollButton();
 }

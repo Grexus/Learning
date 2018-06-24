@@ -15,8 +15,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-    .farkle .game-container .scores-container .score-card.player-2 {
+    .farkle .game-container .scores-container .score-card.active {
+      background-color: rgba(128, 0, 0, 0.2); }
+    .farkle .game-container .scores-container .score-card .player-name .name-input {
+      border: 0;
+      background-color: transparent; }
+      .farkle .game-container .scores-container .score-card .player-name .name-input:focus {
+        outline: 0; }
+    .farkle .game-container .scores-container .score-card#player-2 {
       text-align: right; }
+      .farkle .game-container .scores-container .score-card#player-2 ::-webkit-input-placeholder {
+        text-align: right; }
+      .farkle .game-container .scores-container .score-card#player-2 .name-input {
+        text-align: right; }
     .farkle .game-container .dice-container .dice {
       width: 60px;
       height: 60px;
@@ -24,9 +35,10 @@
       border: 1px solid grey;
       border-radius: 5px;
       box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
-      cursor: pointer; }
+      cursor: pointer;
+      transition: all linear 0.1s; }
       .farkle .game-container .dice-container .dice.selected {
-        border: 3px solid grey; }
+        box-shadow: 0 0 10px 5px rgba(128, 0, 0, 0.2); }
     .farkle .game-container .options-container .option {
       padding: 0 5px; }
       .farkle .game-container .options-container .option:first-of-type {

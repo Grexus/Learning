@@ -10,8 +10,19 @@
 
             // Score Card
             .score-card {
+                &.active { background-color: rgba(maroon, 0.2); }
 
-                &.player-2 { text-align: right; }
+                // Player Name
+                .player-name {
+                    .name-input { border: 0; background-color: rgba(0,0,0,0); 
+                        &:focus { outline: 0; }
+                    }
+                }
+
+                &#player-2 { text-align: right; 
+                    ::-webkit-input-placeholder { text-align: right; }
+                    .name-input { text-align: right; }
+                }
             }
         }
 
@@ -19,8 +30,8 @@
         .dice-container {
 
             // Dice
-            .dice { width: 60px; height: 60px; margin: 10px; border: 1px solid grey; border-radius: 5px; box-shadow: 0 0 2px 1px rgba(0,0,0,0.1); cursor: pointer; 
-                &.selected { border: 3px solid grey; }
+            .dice { width: 60px; height: 60px; margin: 10px; border: 1px solid grey; border-radius: 5px; box-shadow: 0 0 2px 1px rgba(0,0,0,0.1); cursor: pointer; transition: all linear 0.1s; 
+                &.selected { box-shadow: 0 0 10px 5px rgba(128, 0, 0, 0.2); }
             }
         }
 

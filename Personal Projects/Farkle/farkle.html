@@ -17,7 +17,10 @@
     <div class="game-container d-flex flex-column justify-content-between">
         <!-- Scores -->
         <div class="scores-container d-flex flex-row justify-content-between">
-            <div class="score-card player-1 d-flex flex-column col-4">
+            <div class="score-card d-flex flex-column col-4" id="player-1">
+                <div class="player-name d-flex flex-row">
+                    <input class="name-input col" type="text" placeholder="Player 1">
+                </div>
                 <div class="total-score d-flex flex-row justify-content-between">
                     <span class="score-text col">Total</span>
                     <span class="score-value">0</span>
@@ -32,7 +35,10 @@
                 </div>
             </div>
 
-            <div class="score-card player-2 d-flex flex-column col-4">
+            <div class="score-card d-flex flex-column col-4" id="player-2">
+                <div class="player-name d-flex flex-row">
+                    <input class="name-input col" type="text" placeholder="Player 2">
+                </div>
                 <div class="total-score d-flex flex-row justify-content-between">
                     <span class="score-value">0</span>
                     <span class="score-text col">Total</span>
@@ -59,7 +65,7 @@
 
         <!-- Options -->
         <div class="options-container d-flex flex-row justify-content-around flex-wrap">
-            
+
             <!-- Roll Dice -->
             <div id="roll" class="option col-xs-12 col-sm-6">
                 <button class="btn">Roll Dice</button>
