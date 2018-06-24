@@ -1,0 +1,35 @@
+.farkle {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-color: maroon; }
+  .farkle .game-container {
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    max-height: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .farkle .game-container .dice-container .dice {
+      width: 60px;
+      height: 60px;
+      margin: 10px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+      cursor: pointer; }
+      .farkle .game-container .dice-container .dice.selected {
+        border: 3px solid grey; }
+    .farkle .game-container .options-container .option {
+      padding: 0 5px; }
+      .farkle .game-container .options-container .option:first-of-type {
+        padding: 0 5px 0 0; }
+      .farkle .game-container .options-container .option:last-of-type {
+        padding: 0 0 0 5px; }
+      .farkle .game-container .options-container .option .btn {
+        width: 100%; }

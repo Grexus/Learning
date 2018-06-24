@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farkle</title>
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/core.css">
+</head>
+
+<body class="farkle">
+
+    <!-- Game Container -->
+    <div class="game-container d-flex flex-column justify-content-between">
+        <!-- Scores -->
+        <div class="scores-container d-flex flex-row justify-content-between">
+            <div class="score player-1 d-flex flex-column col-4">
+                <div class="total-score">
+                    <span class="score-text">Total</span>
+                    <span class="score-value"></span>
+                </div>
+                <div class="round-score">
+                    <span class="score-text">Round</span>
+                    <span class="score-value"></span>
+                </div>
+                <div class="selected-score">
+                    <span class="score-text">Selected</span>
+                    <span class="score-value"></span>
+                </div>
+            </div>
+
+            <div class="score player-2 d-flex flex-column col-4">
+                <div class="total-score">
+                    <span class="score-text">Total</span>
+                    <span class="score-value"></span>
+                </div>
+                <div class="round-score">
+                    <span class="score-text">Round</span>
+                    <span class="score-value"></span>
+                </div>
+                <div class="selected-score">
+                    <span class="score-text">Selected</span>
+                    <span class="score-value"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dice -->
+        <div class="dice-container d-flex flex-row justify-content-around flex-wrap">
+            <img class="dice" src="resources/images/dice-1.png" alt="">
+            <img class="dice" src="resources/images/dice-2.png" alt="">
+            <img class="dice" src="resources/images/dice-3.png" alt="">
+            <img class="dice" src="resources/images/dice-4.png" alt="">
+            <img class="dice" src="resources/images/dice-5.png" alt="">
+        </div>
+
+        <!-- Options -->
+        <div class="options-container d-flex flex-row justify-content-around flex-wrap">
+            
+            <!-- Roll Dice -->
+            <div id="roll" class="option col-xs-12 col-sm-6">
+                <button class="btn">Roll Dice</button>
+            </div>
+
+            <!-- Score & Roll Again -->
+            <div id="score-roll" class="option col-xs-12 col-sm-6">
+                <button class="btn">Score & Roll Again</button>
+            </div>
+
+            <!-- Score & Pass -->
+            <div id="score-pass" class="option col-xs-12 col-sm-6">
+                <button class="btn">Score & Pass</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
