@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, dice, gameActive, rolls, winningScore;
+var scores, roundScore, activePlayer, dice, gameActive, lastDice, winningScore;
 
 init();
 
@@ -25,19 +25,14 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
         diceDOM.style.display = "block";
         diceDOM.src = 'dice-' + dice + ".png";
 
-        // Add result to rolls array (max length 2: elements)
-        if (rolls.length < 2) {
-            rolls.push(dice);
-        } else if (rolls.length = 2) {
-            rolls.shift();
-            rolls.push(dice);
-        }
-
         // If player rolls two 6's in a row
-        if (rolls[0] == 6 && rolls[1] == 6) {
+        if (dice === 6 && lastDice === 6) {
 
-            // Next Player
+            // Player Loses Score
+            scores[activePlayer] = 0;
+            document.querySelector('#score-' + activePlayer).textContent = '0';
             nextPlayer();
+
         
         // If player does not roll a 1
         } else if (dice !== 1) {
@@ -51,6 +46,8 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
             // Next Player
             nextPlayer();
         }
+
+        lastDice = dice;
     }
 });
 
@@ -62,6 +59,16 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
 
         // Update UI
         document.querySelector("#score-" + activePlayer).innerHTML = scores[activePlayer];
+
+
+        var input = document.querySelector('.new-winning-score').value;
+        var winningScore;
+
+        if(input) {
+            winningScore = input;
+        } else {
+            winningScore = 100;
+        }
 
         // Check if player won the game
         if (scores[activePlayer] >= winningScore) {
@@ -79,10 +86,6 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
 
 
 document.querySelector(".btn-new").addEventListener("click", init);
-document.querySelector(".update-winning-score").addEventListener("click", function(){
-    winningScoreString = document.querySelector(".new-winning-score").value;
-    winningScore = Number(winningScoreString);
-})
 
 function init() {
     scores = [0,0];
@@ -107,7 +110,6 @@ function init() {
 function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
-    rolls = [];
     document.getElementById("current-0").innerHTML = 0;
     document.getElementById("current-1").innerHTML = 0;
     document.querySelector(".player-0-panel").classList.toggle('active');
