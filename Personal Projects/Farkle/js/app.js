@@ -1,6 +1,9 @@
 var dice = document.getElementsByClassName("dice");
 var selectedDice = document.getElementsByClassName("selected");
 var activePlayer;
+var scoreSelected;
+var scoreRound;
+var scoreTotal;
 
 // Starting Settings
 init();
@@ -55,11 +58,13 @@ for (i = 0; i < dice.length; i++) {
 }
 
 // Game Logic
-// for (i = 0; i < selectedDice.length; i++) {
-//     if (selectedDice[0].value === 1) {
-//         score = 100;
-//     }
-// }
+for (i = 0; i < selectedDice.length; i++) {
+    if (selectedDice[0].value === 1) {
+        score = 100;
+        alert("Scored 100!");
+        // document.getElementById("player-" + activePlayer).querySelector(".selected-score").querySelector("score-value").innerHTML = score;
+    }
+}
 
 // Hide Score Buttons
 function showRollButton() {
@@ -98,7 +103,7 @@ function rollDice() {
 // Update Dice Visuals
 function updateDice() {
     for (i = 0; i < dice.length; i++) {
-        dice[i].src = "/Farkle/resources/images/dice-" + dice[i].value + ".png";
+        dice[i].src = "/resources/images/dice-" + dice[i].value + ".png";
     }
 }
 
