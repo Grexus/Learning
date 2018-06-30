@@ -4,6 +4,7 @@ var activePlayer;
 var scoreSelected;
 var scoreRound;
 var scoreTotal;
+var shownDice;
 
 // Starting Settings
 init();
@@ -22,6 +23,10 @@ document.getElementById("roll").addEventListener("click", function(){
 
 // Clicking "score & roll again" button
 document.getElementById("score-roll").addEventListener("click", function(){
+
+    // Reduce number of shown dice based on how many were selected
+    shownDice = shownDice - selectedDice.length;
+    setShownDice();
 
     // Remove Selection
     removeSelection();
@@ -115,6 +120,14 @@ function updateDice() {
 function resetDice() {
     for (i = 0; i < dice.length; i++) {
         dice[i].value = 0;
+    }
+}
+
+// Set number of shown dice
+function setShownDice() {
+    for (i = 0; i < shownDice - 1; i++) {
+        cloneDice = document.getElementsByClassName("dice")[0].cloneNode(true);
+        document.getElementById("dice-container").appendChild(cloneDice);
     }
 }
 
@@ -250,6 +263,7 @@ function init() {
     scoreRound = 0;
     scoreSelected = 0;
     scoreTotal = 0;
+    shownDice = 6;
     hideDice();
     showRollButton();
 }
