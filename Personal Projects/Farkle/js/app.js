@@ -12,10 +12,16 @@ init();
 // Clicking "Roll" button
 document.getElementById("roll").addEventListener("click", function(){
 
+    // Show 6 Dice
+    setShownDice();
+
     // Roll, Update & Show Dice
     rollDice();
     updateDice();
     showDice();
+
+    // Apply Selection Method
+    applySelectionMethod();
 
     // Show Score Buttons
     showScoreButtons();
@@ -30,6 +36,7 @@ document.getElementById("score-roll").addEventListener("click", function(){
 
     // Remove Selection
     removeSelection();
+    removeDice();
 
     // Update round score
     scoreRound = scoreRound + scoreSelected;
@@ -42,6 +49,7 @@ document.getElementById("score-roll").addEventListener("click", function(){
     // Roll & update dice
     rollDice();
     updateDice();
+
 })
 
 // Clicking "score & pass" button
@@ -62,13 +70,15 @@ document.getElementById("score-pass").addEventListener("click", function(){
 })
 
 // Apply "select" class on dice & calculate score
-for (i = 0; i < dice.length; i++) {
-    dice[i].addEventListener("click", function(){
-        this.classList.toggle("selected");
-        
-        calcSelectedScore();
-        updateSelectedScore();
-    })    
+function applySelectionMethod() {
+    for (i = 0; i < dice.length; i++) {
+        dice[i].addEventListener("click", function(){
+            this.classList.toggle("selected");
+            
+            calcSelectedScore();
+            updateSelectedScore();
+        })    
+    }
 }
 
 // Hide Score Buttons
@@ -123,8 +133,20 @@ function resetDice() {
     }
 }
 
+// Remove Dice
+function removeDice() {
+    var diceContainer = document.getElementById("dice-container");
+    
+    // Remove all dice
+    for (i = 0; i < dice.length - 1; i++) {
+        diceContainer.removeChild(diceContainer.childNodes[i]);
+    }
+}
+
 // Set number of shown dice
 function setShownDice() {
+
+    // Set new dice
     for (i = 0; i < shownDice - 1; i++) {
         cloneDice = document.getElementsByClassName("dice")[0].cloneNode(true);
         document.getElementById("dice-container").appendChild(cloneDice);
