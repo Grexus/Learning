@@ -1,0 +1,49 @@
+// Farkle
+.farkle { min-width: 100vw; min-height: 100vh; position: relative; background-color: maroon;
+
+    // Game Container
+    .game-container { width: 90%; max-width: 1000px; height: 90%; max-height: 600px; padding: 20px; background-color: white; box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+
+        // Scores Container
+        .scores-container {
+
+            // Score Card
+            .score-card {
+                &.active { background-color: rgba(maroon, 0.2); }
+
+                // Player Name
+                .player-name {
+                    .name-input { border: 0; background-color: rgba(0,0,0,0); 
+                        &:focus { outline: 0; }
+                    }
+                }
+
+                &#player-2 { text-align: right; 
+                    ::-webkit-input-placeholder { text-align: right; }
+                    .name-input { text-align: right; }
+                }
+            }
+        }
+
+        // Dice Container
+        .dice-container {
+
+            // Dice
+            .dice { width: 60px; height: 60px; margin: 10px; border: 1px solid grey; border-radius: 5px; box-shadow: 0 0 2px 1px rgba(0,0,0,0.1); cursor: pointer; transition: all linear 0.1s; 
+                &.selected { box-shadow: 0 0 10px 5px rgba(128, 0, 0, 0.2); }
+            }
+        }
+
+        // Options Container
+        .options-container {
+            .option { padding: 0 5px;
+                &:first-of-type { padding: 0 5px 0 0 ; }
+                &:last-of-type { padding: 0 0 0 5px; }
+
+                // Button
+                .btn { width: 100%; }
+            }
+        }
+    }
+}
