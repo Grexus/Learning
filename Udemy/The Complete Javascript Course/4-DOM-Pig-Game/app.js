@@ -13,6 +13,8 @@ var scores, roundScore, activePlayer, dice, gameActive, lastDice, winningScore;
 
 init();
 
+console.log("Fuck you");
+
 document.querySelector(".btn-roll").addEventListener("click", function() {
     
     if (gameActive) {

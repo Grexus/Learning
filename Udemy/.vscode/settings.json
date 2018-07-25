@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Udemy"
+    "liveServer.settings.multiRootWorkspaceName": "Udemy",
+    "git.ignoreLimitWarning": true
 }
