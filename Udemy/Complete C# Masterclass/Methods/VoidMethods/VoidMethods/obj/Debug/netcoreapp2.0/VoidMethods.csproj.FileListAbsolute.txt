@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\bin\Debug\netcoreapp2.0\VoidMethods.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\bin\Debug\netcoreapp2.0\VoidMethods.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\bin\Debug\netcoreapp2.0\VoidMethods.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\bin\Debug\netcoreapp2.0\VoidMethods.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\bin\Debug\netcoreapp2.0\VoidMethods.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\VoidMethods\VoidMethods\obj\Debug\netcoreapp2.0\VoidMethods.pdb

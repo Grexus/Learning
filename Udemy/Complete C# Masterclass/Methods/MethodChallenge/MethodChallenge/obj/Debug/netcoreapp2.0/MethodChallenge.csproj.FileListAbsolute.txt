@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\bin\Debug\netcoreapp2.0\MethodChallenge.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\bin\Debug\netcoreapp2.0\MethodChallenge.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\bin\Debug\netcoreapp2.0\MethodChallenge.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\bin\Debug\netcoreapp2.0\MethodChallenge.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\bin\Debug\netcoreapp2.0\MethodChallenge.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\MethodChallenge\MethodChallenge\obj\Debug\netcoreapp2.0\MethodChallenge.pdb
