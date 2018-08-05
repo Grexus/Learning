@@ -1,0 +1,11 @@
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\bin\Debug\netcoreapp2.0\TryAndCatch.deps.json
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\bin\Debug\netcoreapp2.0\TryAndCatch.runtimeconfig.json
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\bin\Debug\netcoreapp2.0\TryAndCatch.runtimeconfig.dev.json
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\bin\Debug\netcoreapp2.0\TryAndCatch.dll
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\bin\Debug\netcoreapp2.0\TryAndCatch.pdb
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.csprojAssemblyReference.cache
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.csproj.CoreCompileInputs.cache
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.AssemblyInfoInputs.cache
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.AssemblyInfo.cs
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.dll
+c:\users\matth\source\repos\TryAndCatch\TryAndCatch\obj\Debug\netcoreapp2.0\TryAndCatch.pdb

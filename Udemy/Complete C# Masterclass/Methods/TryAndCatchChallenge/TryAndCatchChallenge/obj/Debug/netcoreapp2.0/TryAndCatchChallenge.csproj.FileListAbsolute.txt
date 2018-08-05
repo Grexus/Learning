@@ -1,0 +1,11 @@
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\bin\Debug\netcoreapp2.0\TryAndCatchChallenge.deps.json
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\bin\Debug\netcoreapp2.0\TryAndCatchChallenge.runtimeconfig.json
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\bin\Debug\netcoreapp2.0\TryAndCatchChallenge.runtimeconfig.dev.json
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\bin\Debug\netcoreapp2.0\TryAndCatchChallenge.dll
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\bin\Debug\netcoreapp2.0\TryAndCatchChallenge.pdb
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.csproj.CoreCompileInputs.cache
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.AssemblyInfoInputs.cache
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.AssemblyInfo.cs
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.dll
+c:\users\matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.pdb
+c:\Users\Matth\source\repos\TryAndCatchChallenge\TryAndCatchChallenge\obj\Debug\netcoreapp2.0\TryAndCatchChallenge.csprojAssemblyReference.cache

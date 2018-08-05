@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\bin\Debug\netcoreapp2.0\Operators.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\bin\Debug\netcoreapp2.0\Operators.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\bin\Debug\netcoreapp2.0\Operators.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\bin\Debug\netcoreapp2.0\Operators.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\bin\Debug\netcoreapp2.0\Operators.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Methods\Operators\Operators\obj\Debug\netcoreapp2.0\Operators.pdb
