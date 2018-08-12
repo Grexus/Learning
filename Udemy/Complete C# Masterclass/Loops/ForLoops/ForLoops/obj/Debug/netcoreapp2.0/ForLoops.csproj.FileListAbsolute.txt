@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\bin\Debug\netcoreapp2.0\ForLoops.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\bin\Debug\netcoreapp2.0\ForLoops.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\bin\Debug\netcoreapp2.0\ForLoops.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\bin\Debug\netcoreapp2.0\ForLoops.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\bin\Debug\netcoreapp2.0\ForLoops.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\ForLoops\ForLoops\obj\Debug\netcoreapp2.0\ForLoops.pdb

@@ -1,0 +1,10 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\bin\Debug\netcoreapp2.0\DoWhileLoop.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\bin\Debug\netcoreapp2.0\DoWhileLoop.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\bin\Debug\netcoreapp2.0\DoWhileLoop.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\bin\Debug\netcoreapp2.0\DoWhileLoop.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\bin\Debug\netcoreapp2.0\DoWhileLoop.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\obj\Debug\netcoreapp2.0\DoWhileLoop.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\obj\Debug\netcoreapp2.0\DoWhileLoop.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\obj\Debug\netcoreapp2.0\DoWhileLoop.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\obj\Debug\netcoreapp2.0\DoWhileLoop.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Loops\DoWhileLoop\DoWhileLoop\obj\Debug\netcoreapp2.0\DoWhileLoop.pdb
