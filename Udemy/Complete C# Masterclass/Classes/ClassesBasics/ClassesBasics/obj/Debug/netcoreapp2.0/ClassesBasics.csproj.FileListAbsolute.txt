@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\bin\Debug\netcoreapp2.0\ClassesBasics.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\bin\Debug\netcoreapp2.0\ClassesBasics.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\bin\Debug\netcoreapp2.0\ClassesBasics.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\bin\Debug\netcoreapp2.0\ClassesBasics.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\bin\Debug\netcoreapp2.0\ClassesBasics.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Classes\ClassesBasics\ClassesBasics\obj\Debug\netcoreapp2.0\ClassesBasics.pdb
