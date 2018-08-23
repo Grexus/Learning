@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.pdb
