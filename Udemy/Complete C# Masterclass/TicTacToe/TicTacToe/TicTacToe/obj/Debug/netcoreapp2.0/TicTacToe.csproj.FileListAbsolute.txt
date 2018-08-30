@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.pdb
