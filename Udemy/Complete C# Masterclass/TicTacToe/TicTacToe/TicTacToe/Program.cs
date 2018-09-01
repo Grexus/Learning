@@ -4,203 +4,159 @@ namespace TicTacToe
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
-            bool playAgain = true;
             bool gamePlaying = true;
             bool nextPlayer = true;
+
+            int rounds = 0;
 
             string playerTurn = null;
             string playerAction;
             string playerSymbol = null;
             string[] ticTacToeArray = {"1","2","3","4","5","6","7","8","9"};
 
-            while (playAgain)
+
+            while (gamePlaying && rounds < 9)
             {
-                while (gamePlaying)
+                Console.Clear();
+
+                // Switch Player
+                if (nextPlayer)
                 {
-                    Console.Clear();
+                    SwitchPlayer(ref playerTurn, ref playerSymbol);
+                }
 
-                    if (nextPlayer)
-                    {
-                        // Switch Player
-                        if (playerTurn != "1")
-                        {
-                            playerTurn = "1";
-                            playerSymbol = "x";
-                        }
-                        else
-                        {
-                            playerTurn = "2";
-                            playerSymbol = "o";
-                        }
-                    }
+                // Print TicTacToe Board
+                PrintTicTacToeBoard(ticTacToeArray);
 
-                    // Print TicTacToe Board
-                    Console.WriteLine("{0} | {1} | {2}", ticTacToeArray[0], ticTacToeArray[1], ticTacToeArray[2]);
-                    Console.WriteLine("{0} | {1} | {2}", ticTacToeArray[3], ticTacToeArray[4], ticTacToeArray[5]);
-                    Console.WriteLine("{0} | {1} | {2}", ticTacToeArray[6], ticTacToeArray[7], ticTacToeArray[8]);
-                    Console.WriteLine();
-                    Console.WriteLine("Player {0}'s turn", playerTurn);
-                    Console.WriteLine("Please enter a number where to place the '{0}'", playerSymbol);
-                    playerAction = Console.ReadLine();
+                // Game Instructions
+                Console.WriteLine();
+                Console.WriteLine("Player {0}'s turn", playerTurn);
+                Console.WriteLine("Please enter a number where to place the '{0}'", playerSymbol);
+                Console.WriteLine();
 
+                // Error Message
+                if (!nextPlayer)
+                {
+                    Console.WriteLine("Incorrect input, try again.");
+                }
 
-                    // Player Action
-                    switch (playerAction)
-                    {
-                        case "1":
-                            if (ticTacToeArray[0] == "1")
-                            {
-                                ticTacToeArray[0] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "2":
-                            if (ticTacToeArray[1] == "2")
-                            {
-                                ticTacToeArray[1] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "3":
-                            if (ticTacToeArray[2] == "3")
-                            {
-                                ticTacToeArray[2] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "4":
-                            if (ticTacToeArray[3] == "4")
-                            {
-                                ticTacToeArray[3] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "5":
-                            if (ticTacToeArray[4] == "5")
-                            {
-                                ticTacToeArray[4] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "6":
-                            if (ticTacToeArray[5] == "6")
-                            {
-                                ticTacToeArray[5] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "7":
-                            if (ticTacToeArray[6] == "7")
-                            {
-                                ticTacToeArray[6] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "8":
-                            if (ticTacToeArray[7] == "8")
-                            {
-                                ticTacToeArray[7] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        case "9":
-                            if (ticTacToeArray[8] == "9")
-                            {
-                                ticTacToeArray[8] = playerSymbol;
-                                nextPlayer = true;
-                            }
-                            else
-                            {
-                                nextPlayer = false;
-                            }
-                            break;
-                        default:
-                            Console.WriteLine("Incorrect input, try again.");
-                            break;
-                    }
+                // Player Action Input
+                playerAction = Console.ReadLine();
 
-                    // Game Logic
-                    // Horizontal
-                    if (ticTacToeArray[0] == ticTacToeArray[1] && ticTacToeArray[0] == ticTacToeArray[2])
+                // Player Action
+                if (int.TryParse(playerAction, out int playerActionInt) && playerActionInt > 0 && playerActionInt < 10) // removes wrong inputs
+                {
+                    if (int.TryParse(ticTacToeArray[playerActionInt - 1], out int parsedPlayerAction)) 
                     {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    else if (ticTacToeArray[3] == ticTacToeArray[4] && ticTacToeArray[3] == ticTacToeArray[5])
+                        ticTacToeArray[playerActionInt - 1] = playerSymbol;
+                        nextPlayer = true;
+                    } else
                     {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
+                        nextPlayer = false;
                     }
-                    else if (ticTacToeArray[6] == ticTacToeArray[6] && ticTacToeArray[6] == ticTacToeArray[8])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    // Vertical
-                    else if (ticTacToeArray[0] == ticTacToeArray[3] && ticTacToeArray[0] == ticTacToeArray[6])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    else if (ticTacToeArray[1] == ticTacToeArray[4] && ticTacToeArray[1] == ticTacToeArray[7])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    else if (ticTacToeArray[2] == ticTacToeArray[5] && ticTacToeArray[2] == ticTacToeArray[8])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    // Diagonal
-                    else if (ticTacToeArray[0] == ticTacToeArray[4] && ticTacToeArray[0] == ticTacToeArray[8])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
-                    else if (ticTacToeArray[2] == ticTacToeArray[4] && ticTacToeArray[2] == ticTacToeArray[6])
-                    {
-                        Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
-                        gamePlaying = false;
-                    }
+                }
+                else
+                {
+                    nextPlayer = false;
+                }
+
+                // Game Logic
+                GameLogic(ticTacToeArray, gamePlaying, playerTurn);
+
+                if (nextPlayer == true)
+                {
+                    rounds++;
                 }
             }
 
+            // Draw statement
+            if(gamePlaying == true)
+            {
+                Console.WriteLine("It's a draw!");
+            }
+
+
             Console.Read();
+        }
+
+        // Print TicTacToe Board
+        static void PrintTicTacToeBoard(string[] ticTacToeArray)
+        {
+            Console.WriteLine("     |     |    ");
+            Console.WriteLine("  {0}  |  {1}  |  {2} ", ticTacToeArray[0], ticTacToeArray[1], ticTacToeArray[2]);
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |    ");
+            Console.WriteLine("  {0}  |  {1}  |  {2} ", ticTacToeArray[3], ticTacToeArray[4], ticTacToeArray[5]);
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |    ");
+            Console.WriteLine("  {0}  |  {1}  |  {2} ", ticTacToeArray[6], ticTacToeArray[7], ticTacToeArray[8]);
+            Console.WriteLine("     |     |    ");
+        }
+
+        // Switch Player
+        static void SwitchPlayer(ref string playerTurn, ref string playerSymbol) {
+            if (playerTurn != "1")
+            {
+                playerTurn = "1";
+                playerSymbol = "x";
+            }
+            else
+            {
+                playerTurn = "2";
+                playerSymbol = "o";
+            }
+        }
+
+        // Game Logic
+        static void GameLogic(string[] ticTacToeArray, bool gamePlaying, string playerTurn)
+        {
+            // Horizontal
+            if (ticTacToeArray[0] == ticTacToeArray[1] && ticTacToeArray[0] == ticTacToeArray[2])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            else if (ticTacToeArray[3] == ticTacToeArray[4] && ticTacToeArray[3] == ticTacToeArray[5])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            else if (ticTacToeArray[6] == ticTacToeArray[7] && ticTacToeArray[6] == ticTacToeArray[8])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            // Vertical
+            else if (ticTacToeArray[0] == ticTacToeArray[3] && ticTacToeArray[0] == ticTacToeArray[6])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            else if (ticTacToeArray[1] == ticTacToeArray[4] && ticTacToeArray[1] == ticTacToeArray[7])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            else if (ticTacToeArray[2] == ticTacToeArray[5] && ticTacToeArray[2] == ticTacToeArray[8])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            // Diagonal
+            else if (ticTacToeArray[0] == ticTacToeArray[4] && ticTacToeArray[0] == ticTacToeArray[8])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
+            else if (ticTacToeArray[2] == ticTacToeArray[4] && ticTacToeArray[2] == ticTacToeArray[6])
+            {
+                Console.WriteLine("Game Over! Player {0} won the game!", playerTurn);
+                gamePlaying = false;
+            }
         }
     }
 }
