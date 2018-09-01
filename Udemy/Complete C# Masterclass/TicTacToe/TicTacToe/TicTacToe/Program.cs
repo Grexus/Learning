@@ -65,7 +65,7 @@ namespace TicTacToe
                 }
 
                 // Game Logic
-                GameLogic(ticTacToeArray, gamePlaying, playerTurn);
+                GameLogic(ref ticTacToeArray, ref gamePlaying, ref playerTurn);
 
                 if (nextPlayer == true)
                 {
@@ -112,7 +112,7 @@ namespace TicTacToe
         }
 
         // Game Logic
-        static void GameLogic(string[] ticTacToeArray, bool gamePlaying, string playerTurn)
+        static void GameLogic(ref string[] ticTacToeArray, ref bool gamePlaying, ref string playerTurn)
         {
             // Horizontal
             if (ticTacToeArray[0] == ticTacToeArray[1] && ticTacToeArray[0] == ticTacToeArray[2])
