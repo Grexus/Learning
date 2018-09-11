@@ -16,8 +16,9 @@ namespace TicTacToe
             string playerTurn = null;
             string playerAction;
             string playerSymbol = null;
-            string[] ticTacToeArray = {"1","2","3","4","5","6","7","8","9"};
 
+
+            string[] ticTacToeArray = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
             while (gamePlaying && rounds < 9)
             {
@@ -50,11 +51,12 @@ namespace TicTacToe
                 // Player Action
                 if (int.TryParse(playerAction, out int playerActionInt) && playerActionInt > 0 && playerActionInt < 10) // removes wrong inputs
                 {
-                    if (int.TryParse(ticTacToeArray[playerActionInt - 1], out int parsedPlayerAction)) 
+                    if (int.TryParse(ticTacToeArray[playerActionInt - 1], out int parsedPlayerAction))
                     {
                         ticTacToeArray[playerActionInt - 1] = playerSymbol;
                         nextPlayer = true;
-                    } else
+                    }
+                    else
                     {
                         nextPlayer = false;
                     }
@@ -74,11 +76,14 @@ namespace TicTacToe
             }
 
             // Draw statement
-            if(gamePlaying == true)
+            if (gamePlaying == true)
             {
+                gamePlaying = false;
                 Console.WriteLine("It's a draw!");
             }
 
+            Console.WriteLine("Would you like to play again? Y/N");
+            string playAgainAnswer = Console.ReadLine();
 
             Console.Read();
         }

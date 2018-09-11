@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\bin\Debug\netcoreapp2.0\JaggedArrays.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\bin\Debug\netcoreapp2.0\JaggedArrays.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\bin\Debug\netcoreapp2.0\JaggedArrays.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\bin\Debug\netcoreapp2.0\JaggedArrays.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\bin\Debug\netcoreapp2.0\JaggedArrays.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\Arrays\JaggedArrays\JaggedArrays\obj\Debug\netcoreapp2.0\JaggedArrays.pdb
