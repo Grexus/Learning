@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\bin\Debug\netcoreapp2.1\InheritanceDemo.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\bin\Debug\netcoreapp2.1\InheritanceDemo.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\bin\Debug\netcoreapp2.1\InheritanceDemo.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\bin\Debug\netcoreapp2.1\InheritanceDemo.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\bin\Debug\netcoreapp2.1\InheritanceDemo.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceDemo\InheritanceDemo\obj\Debug\netcoreapp2.1\InheritanceDemo.pdb
