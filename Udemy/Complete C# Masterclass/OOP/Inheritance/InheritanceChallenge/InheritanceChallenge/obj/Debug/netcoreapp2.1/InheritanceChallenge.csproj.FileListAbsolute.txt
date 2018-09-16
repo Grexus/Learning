@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\bin\Debug\netcoreapp2.1\InheritanceChallenge.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\bin\Debug\netcoreapp2.1\InheritanceChallenge.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\bin\Debug\netcoreapp2.1\InheritanceChallenge.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\bin\Debug\netcoreapp2.1\InheritanceChallenge.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\bin\Debug\netcoreapp2.1\InheritanceChallenge.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Inheritance\InheritanceChallenge\InheritanceChallenge\obj\Debug\netcoreapp2.1\InheritanceChallenge.pdb
