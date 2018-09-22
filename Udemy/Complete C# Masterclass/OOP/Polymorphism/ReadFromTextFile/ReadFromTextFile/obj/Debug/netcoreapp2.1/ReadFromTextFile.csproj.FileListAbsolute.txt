@@ -1,0 +1,11 @@
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\bin\Debug\netcoreapp2.1\ReadFromTextFile.deps.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\bin\Debug\netcoreapp2.1\ReadFromTextFile.runtimeconfig.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\bin\Debug\netcoreapp2.1\ReadFromTextFile.runtimeconfig.dev.json
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\bin\Debug\netcoreapp2.1\ReadFromTextFile.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\bin\Debug\netcoreapp2.1\ReadFromTextFile.pdb
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.csprojAssemblyReference.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.csproj.CoreCompileInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.AssemblyInfoInputs.cache
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.AssemblyInfo.cs
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.dll
+D:\Git\Learning\Udemy\Complete C# Masterclass\OOP\Polymorphism\ReadFromTextFile\ReadFromTextFile\obj\Debug\netcoreapp2.1\ReadFromTextFile.pdb
