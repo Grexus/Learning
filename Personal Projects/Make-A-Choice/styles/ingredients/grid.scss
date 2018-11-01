@@ -1,0 +1,7 @@
+//Grid - General
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        flex-basis: calc(100% / 12 * #{$i});
+        max-width: calc(100% / 12 * #{$i});
+    }
+}
