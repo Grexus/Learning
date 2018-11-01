@@ -1,0 +1,18 @@
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px; }
+  .area .ghost {
+    width: 100px; }
+    .area .ghost.blinky .st0 {
+      fill: #ff0000; }
+    .area .ghost.pinky .st0 {
+      fill: #ffb8ff; }
+    .area .ghost.inky .st0 {
+      fill: #00ffff; }
+    .area .ghost.clyde .st0 {
+      fill: #ffb852; }
+  .area .button-container {
+    margin-top: 20px; }
