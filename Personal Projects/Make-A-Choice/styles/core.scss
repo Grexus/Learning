@@ -1,8 +1,19 @@
 @import 
 
-// Ingredients
-"ingredients/normalize",
-"ingredients/grid",
+// Vendors
+"vendors/normalize",
+
+// Base
+"base/base",
+"base/animations",
+"base/typography",
+
+// Layout
+"layout/grid",
+"layout/header",
+"layout/footer",
+
+// Components
 
 // Pages
 "pages/main";
