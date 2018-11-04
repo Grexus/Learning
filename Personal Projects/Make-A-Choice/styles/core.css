@@ -405,4 +405,23 @@ template {
       flex-basis: calc(100% / 12 * 12);
   max-width: calc(100% / 12 * 12);
 }
+
+.main .items {
+  padding: 10px 0;
+}
+
+.main .items .item {
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+}
+
+.main .items .item:hover {
+  background-color: red;
+}
 /*# sourceMappingURL=core.css.map */

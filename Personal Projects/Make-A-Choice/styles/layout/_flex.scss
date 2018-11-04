@@ -1,0 +1,21 @@
+// Row
+.row {  
+    display: flex;
+    flex-direction: row;
+}
+
+// Column
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+// Grow
+.flex-grow {
+    flex-grow: 1;
+}
+
+// Shrink
+.flex-shrink-0 {
+    flex-shrink: 0;
+}

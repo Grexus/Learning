@@ -1,26 +1,35 @@
 let items = [];
+let itemList = document.getElementsByClassName('items')[0];
 let userInput = document.getElementsByClassName("input")[0];
 let isDecided = false;
 
-// Event listener on user input to run 'getInput' function
+// Event listener on user input to run 'update' function
 userInput.addEventListener('keydown', function(e){
     if (e.keyCode === 13) { // checks if 'enter' key was pressed
-        getInput();
+        update(items);
     }
 })
 
+// Update list
+function update(arr){
+    getInput();
+    printArray(arr);
+}
+
+// Print Array
+function printArray(arr){
+    for (var i = 0; i < arr.length; i++){
+        var item = document.createElement('span');
+        item.classList.add("item");
+        item.innerHTML = arr[i];
+        itemList.appendChild(item);
+    }
+}
+
 // Get and Print input
 function getInput(){
-    let itemList = document.getElementsByClassName('inputs')[0];
-    let item = document.createElement('div');
-
     // Push user input into 'items' array
     items.push(userInput.value);
-
-    // Print new item
-    item.classList.add('item');
-    item.innerHTML = items[items.length - 1]; // last item in array
-    itemList.appendChild(item);
     
     // Empty input field
     userInput.value = "";

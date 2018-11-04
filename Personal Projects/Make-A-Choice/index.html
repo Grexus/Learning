@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>D-Cider</title>
     <link rel="stylesheet" href="styles/core.css">
 </head>
 
-<body>
-    <button class="generate" onClick="decide(items)">Generate</button>
-    <input class="input" placeholder="insert here"></input>
-    <button class="add" onClick="getInput()">+</button>
-    <div class="inputs">
-        <span class="inputs-title">Inputs</span>
-    </div>
+<body class="main">
 
-    <div class="choice">
-        <span class="choice-title">Choice</span>
+    <!-- User Controls -->
+    <div class="user-controls row">
+        <button class="generate" onClick="decide(items)">Generate</button>
+        <input class="input" placeholder="insert here"></input>
+        <button class="add" onClick="getInput()">+</button>
     </div>
+    
+    <!-- Inputs -->
+    <div class="items row"></div>
+    
+    <!-- Choice -->
+    <span class="choice-title">Choice</span>
+    <div class="choice"></div>
 </body>
 <script src="app.js"></script>
 
