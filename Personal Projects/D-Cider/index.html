@@ -7,24 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>D-Cider</title>
     <link rel="stylesheet" href="styles/core.css">
+    <script src="./js/vue.js"></script>
 </head>
 
-<body class="main">
+<body>
 
-    <!-- User Controls -->
-    <div class="user-controls row">
-        <button class="generate" onClick="decide(items)">Generate</button>
-        <input class="input" placeholder="insert here"></input>
-        <button class="add" onClick="getInput()">+</button>
+    <div class="app">
+        <!-- User Controls -->
+        <div class="user-controls row">
+            <button class="generate" v-on:click="decide(itemArray)">Generate</button>
+            <input class="input" ref="userInput" v-on:keydown.enter="addToArray"></input>
+            <button class="add" v-on:click="addToArray">+</button>
+        </div>
+        
+        <!-- Inputs -->
+        <div class="items row">
+            <span v-for="item in itemArray" v-on:click="removeItem" ref="item">{{item.item}}</span>
+        </div>
+        
+        <!-- Choice -->
+        <span class="choice-title">Choice</span>
+        <div class="choice" v-if="isDecided">{{finalDecision}}</div>
     </div>
-    
-    <!-- Inputs -->
-    <div class="items row"></div>
-    
-    <!-- Choice -->
-    <span class="choice-title">Choice</span>
-    <div class="choice"></div>
+
+    <script src="./js/app.js"></script>
 </body>
-<script src="app.js"></script>
+
 
 </html>
