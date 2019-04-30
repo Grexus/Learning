@@ -1,0 +1,9 @@
+<% include partials/header %>
+
+    <a href="/campgrounds">Go Back</a>
+    <h4><%= campground.name %></h4>
+    <img src="<%= campground.image %>">
+    <p><%= campground.description %></p>
+    <a href="/campgrounds/<%= campground._id %>">Show More</a>
+
+<% include partials/footer %>

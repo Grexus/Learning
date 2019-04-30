@@ -1,0 +1,94 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "7Xi5Zj_VrujiYuYY25uzuf7mxrZ3DFk8UHLm390N1ZY=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "b4dc23660971",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 30 Dec 2018 08:16:58 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@practicesite.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cd42ed37869c7818fb115fffb3496bada@practicesite.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id 7Xi5Zj_VrujiYuYY25uzuf7mxrZ3DFk8UHLm390N1ZY=@mailhog.example; Sun, 30 Dec 2018 08:16:58 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@b4dc23660971\u003e"
+      ],
+      "Subject": [
+        "[Practice Site] Your site has updated to WordPress 5.0.2"
+      ],
+      "To": [
+        "test@test.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Howdy! Your site at http://practicesite.local has been updated automatically to WordPress 5.0.2.\r\n\r\nNo further action is needed on your part. For more on version 5.0.2, see the About WordPress screen:\r\nhttp://practicesite.local/wp-admin/about.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/\r\n\r\nYou also have some plugins or themes with updates available. Update them now:\r\nhttp://practicesite.local/wp-admin/\r\n\r\nThe WordPress Team\r\n",
+    "Size": 964,
+    "MIME": null
+  },
+  "Created": "2018-12-30T08:16:58.309582469Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@b4dc23660971",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: test@test.com\r\nSubject: [Practice Site] Your site has updated to WordPress 5.0.2\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 30 Dec 2018 08:16:58 +0000\r\nFrom: WordPress \u003cwordpress@practicesite.local\u003e\r\nMessage-ID: \u003cd42ed37869c7818fb115fffb3496bada@practicesite.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy! Your site at http://practicesite.local has been updated automatically to WordPress 5.0.2.\r\n\r\nNo further action is needed on your part. For more on version 5.0.2, see the About WordPress screen:\r\nhttp://practicesite.local/wp-admin/about.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/\r\n\r\nYou also have some plugins or themes with updates available. Update them now:\r\nhttp://practicesite.local/wp-admin/\r\n\r\nThe WordPress Team\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
